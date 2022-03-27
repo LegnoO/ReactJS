@@ -25,7 +25,7 @@ async function getDetail(){
 }
 
 // Delete
-async function getDetail(){
+async function delete(){
   const result = await axios.delete(''+id)
   console.log(result.data)
 }
