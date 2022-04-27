@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-
+import style from './../../assets/css/style.css'
 const Css = () => {
     const Pararaph = styled.p`
     display: inline;
@@ -13,6 +13,8 @@ const Css = () => {
           <Pararaph>Test</Pararaph>
             <br/>
           <Pararaph primary>Test</Pararaph>
+            <br/>
+          <p className={style.module}>Text</p>
         </div>
     );
 };
